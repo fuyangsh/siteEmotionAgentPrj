@@ -1,8 +1,5 @@
 package model.modelObjectPkg;
 
-import java.util.Set;
-import java.util.HashSet;
-
 
 /**
  * <!-- begin-user-doc -->
@@ -10,7 +7,7 @@ import java.util.HashSet;
  * @generated
  */
 
-public class QsensorData
+public class EmotionChange
 {
 	/**
 	 * <!-- begin-user-doc -->
@@ -19,7 +16,7 @@ public class QsensorData
 	 * @ordered
 	 */
 	
-	public int dataID;
+	public int emotionChangeID;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -28,7 +25,7 @@ public class QsensorData
 	 * @ordered
 	 */
 	
-	public int userID;
+	public int dataID;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -46,7 +43,7 @@ public class QsensorData
 	 * @ordered
 	 */
 	
-	public long startTime;
+	public int userID;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -55,7 +52,7 @@ public class QsensorData
 	 * @ordered
 	 */
 	
-	public long endTime;
+	public String changeDesc;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -64,7 +61,7 @@ public class QsensorData
 	 * @ordered
 	 */
 	
-	public int whichHand;
+	public long chgStrTime;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -73,14 +70,23 @@ public class QsensorData
 	 * @ordered
 	 */
 	
-	public Set<QsensorDataDetail> qsensorDataDetail;
-
+	public long chgEndTime;
+	
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public int chgOnElmtID;
+	
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->
 	 * @generated
 	 */
-	public QsensorData(){
+	public EmotionChange(){
 		super();
 	}
 

@@ -103,6 +103,15 @@ public class QsensorDataDetail
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->
 	 * @generated
+	 * @ordered
+	 */
+	
+	public QsensorData qsensorData;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
 	 */
 	public QsensorDataDetail(){
 		super();

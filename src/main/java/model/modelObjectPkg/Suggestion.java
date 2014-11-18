@@ -1,8 +1,5 @@
 package model.modelObjectPkg;
 
-import java.util.Set;
-import java.util.HashSet;
-
 
 /**
  * <!-- begin-user-doc -->
@@ -10,7 +7,7 @@ import java.util.HashSet;
  * @generated
  */
 
-public class QsensorData
+public class Suggestion
 {
 	/**
 	 * <!-- begin-user-doc -->
@@ -28,15 +25,6 @@ public class QsensorData
 	 * @ordered
 	 */
 	
-	public int userID;
-	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
 	public int siteID;
 	
 	/**
@@ -46,7 +34,7 @@ public class QsensorData
 	 * @ordered
 	 */
 	
-	public long startTime;
+	public int suggestID;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -55,34 +43,28 @@ public class QsensorData
 	 * @ordered
 	 */
 	
-	public long endTime;
+	public String suggestion;
 	
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->
 	 * @generated
-	 * @ordered
 	 */
-	
-	public int whichHand;
-	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public Set<QsensorDataDetail> qsensorDataDetail;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 */
-	public QsensorData(){
+	public Suggestion(){
 		super();
 	}
 
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public String displaySug() {
+		// TODO implement me
+		return "";	
+	}
+	
 }
 
