@@ -1,8 +1,5 @@
 package model.ModelObjectPkg;
 
-import java.util.Set;
-import java.util.HashSet;
-
 
 /**
  * <!-- begin-user-doc -->
@@ -10,8 +7,26 @@ import java.util.HashSet;
  * @generated
  */
 
-public class WebSite
+public class QsensorData
 {
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public int dataID;
+	
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public int userID;
+	
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->
@@ -28,7 +43,7 @@ public class WebSite
 	 * @ordered
 	 */
 	
-	public String siteName;
+	public long startTime;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -37,14 +52,23 @@ public class WebSite
 	 * @ordered
 	 */
 	
-	public Set<SiteElement> siteElement;
-
+	public long endTime;
+	
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public int whichHand;
+	
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->
 	 * @generated
 	 */
-	public WebSite(){
+	public QsensorData(){
 		super();
 	}
 

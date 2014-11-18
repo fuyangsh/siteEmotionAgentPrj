@@ -7,7 +7,7 @@ package model.ModelObjectPkg;
  * @generated
  */
 
-public class SiteElement
+public class IntelligentAgent
 {
 	/**
 	 * <!-- begin-user-doc -->
@@ -16,7 +16,7 @@ public class SiteElement
 	 * @ordered
 	 */
 	
-	public int elementID;
+	public int agentID;
 	
 	/**
 	 * <!-- begin-user-doc -->
@@ -25,52 +25,75 @@ public class SiteElement
 	 * @ordered
 	 */
 	
-	public int siteID;
+	public String agentName;
 	
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->
 	 * @generated
-	 * @ordered
 	 */
-	
-	public String elementType;
-	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public long startPlayTime;
-	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public long duration;
-	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public WebSite webSite;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 */
-	public SiteElement(){
+	public IntelligentAgent(){
 		super();
 	}
 
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public String sayHi() {
+		// TODO implement me
+		return "";	
+	}
+	
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public boolean saveQsensorData() {
+		// TODO implement me
+		return false;	
+	}
+	
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public boolean analyzeEmotionChange() {
+		// TODO implement me
+		return false;	
+	}
+	
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public void mapEmtSiteChange() {
+		// TODO implement me	
+	}
+	
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public String giveSuggestion() {
+		// TODO implement me
+		return "";	
+	}
+	
 }
 
